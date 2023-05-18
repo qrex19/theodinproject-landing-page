@@ -3,7 +3,7 @@ body {
 }
 
 .header-container {
-    background-color: rgb(31, 41, 55);
+    background-color: #1F2937;
     display: flex;
     justify-content: center;
     margin-top: 0px;
@@ -20,20 +20,22 @@ img.shrek {
     height: 215px;
     width: 350px;
     margin-top: 76px;
+    margin-left: 140px;
 }
 
 button {
     height: 9%;
     width: 10%;
     border: none;
-    background-color: rgb(57, 125, 236);
+    background-color: #3882F6;
     border-radius: 3px;
 }
 
 .navbar-list {
     display: flex;
-    justify-content: center;    
+    justify-content: space-between;    
     list-style-type: none;
+    width: 450px;
 }
 
 li {
@@ -42,16 +44,22 @@ li {
 
 .first-para {
     width: 48%;
+    color: #F9FAF8;
+    font-size: 18px;
 }
 
 .first-signup {
     margin: 1%;
     margin-left: 0%;
     margin-bottom: 10%;
+    height: 30px;
+    width: 90px;
 }
 
 h1 {
     color: white;
+    font-size: 48px;
+    color: #F9FAF8;
 
 }
 
@@ -72,7 +80,7 @@ div.body {
 }
 
 h3 {
-    font-size: 22px;
+    font-size: 36px;
 }
 
 .body-content {
@@ -115,7 +123,9 @@ img.shiba {
 }
 
 .para-2 {
-    font-size: 30px;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
 }
 
 h4 {
